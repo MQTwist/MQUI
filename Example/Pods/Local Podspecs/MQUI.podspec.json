@@ -1,0 +1,22 @@
+{
+  "name": "MQUI",
+  "version": "0.1.0",
+  "summary": "A short description of MQUI.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Twist/MQUI",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Twist": "mq943691300@163.com"
+  },
+  "source": {
+    "git": "https://github.com/Twist/MQUI.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "MQUI/Classes/**/*"
+}
