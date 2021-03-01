@@ -7,18 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		055D0C69C21E44B4A8AFB8A891EC078E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		0E09703084902BF344B7B99894B38D7E /* UILabel+Title.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DED1875928CFF810ECA2B4D2F0A907D /* UILabel+Title.m */; };
 		1FE0B05265140CA39549C3044E70CF20 /* Pods-MQUI_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B5F6F9D3923E8B082E43B618DC030FB /* Pods-MQUI_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		24E8A1EF0DCD5D368586AE0C86D51B1C /* Pods-MQUI_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 111BDDA8F4839D63AEF91350297AA792 /* Pods-MQUI_Tests-dummy.m */; };
-		4126EFF061131351570F346F864CFB45 /* MQUI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 94BC6299F70F62DFB0AD2F9FF8573CE2 /* MQUI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CB79FE5A5C5FA883347531EF691F41BA /* UILabel+Title.m in Sources */ = {isa = PBXBuildFile; fileRef = AD6E4D73C1058D94397B30C892E36508 /* UILabel+Title.m */; };
-		CF7873D2954D8DCE5EFB79EDB8316FA9 /* MQUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6BEDCE403D270DDFE5F2F40B3D2D3D /* MQUI-dummy.m */; };
-		E8FD25CB7F4B65B6BB6C3A8D6DEDEF6C /* UILabel+Title.h in Headers */ = {isa = PBXBuildFile; fileRef = C14AEEF9B67C8B2F1BF04E7A3FBCBE9B /* UILabel+Title.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28DF1337A2A6DAB066EE54AA56910E90 /* UILabel+Title.h in Headers */ = {isa = PBXBuildFile; fileRef = 008414AC12F3F334C6448F28E87EA4E7 /* UILabel+Title.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50885484C09CDAF663E509EC0612CF8B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B505BCE33A545421C5F8301844E9A165 /* SCKPrefix.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C0C8183A8D30AE7B3854C0DFEB3468F /* SCKPrefix.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E69A0D478A4024D2A3E8BA0433F9E54A /* MQUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A13D096ED6CBBA37853173E8DD9877 /* MQUI-dummy.m */; };
+		E96233C1C881FD37D18AEC338BEB5348 /* MQUI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E4C5B3AAA85D836CF8ED609A862DC62 /* MQUI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EFCB6FEDE92B2C514703DE7BF6AEF511 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		DD138C656802C962C5CAB1AD439783B3 /* PBXContainerItemProxy */ = {
+		7D3A554EA2424AA04916C16DD3FCFA90 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -28,39 +29,40 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		008414AC12F3F334C6448F28E87EA4E7 /* UILabel+Title.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+Title.h"; path = "MQUI/Classes/UI/UILabel+Title.h"; sourceTree = "<group>"; };
+		085557BBD8D50B7D97ED81EE918FF42A /* MQUI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MQUI-Info.plist"; sourceTree = "<group>"; };
 		111BDDA8F4839D63AEF91350297AA792 /* Pods-MQUI_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MQUI_Tests-dummy.m"; sourceTree = "<group>"; };
-		2B7E8731CECDCD3022706484AA7AC0DA /* MQUI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MQUI-Info.plist"; sourceTree = "<group>"; };
+		12AF12ABF4EA21773C128CE0EBCFCC6C /* MQUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MQUI.release.xcconfig; sourceTree = "<group>"; };
+		1B3AB7A4E46E517B6A2CB2B4AFEF7DBC /* MQUI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MQUI.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		31C472E42421062F816EA5AB3EF799FC /* MQUI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MQUI-prefix.pch"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		329153CF16CD8D384CFD9074D45E2337 /* MQUI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MQUI-prefix.pch"; sourceTree = "<group>"; };
-		3D44ED31607DF5F71268C442E3DAB289 /* MQUI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MQUI.modulemap; sourceTree = "<group>"; };
+		371E068C495B2EEC28B452FB69FE6CDB /* MQUI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MQUI.modulemap; sourceTree = "<group>"; };
 		3E5B85C9D5A97551328D439D07FF8B37 /* Pods-MQUI_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MQUI_Tests.modulemap"; sourceTree = "<group>"; };
-		3F0E336433C75694C66EC0B2BC41A938 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		449D8D32B17A4EB10717C6A301661CD4 /* Pods-MQUI_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MQUI_Tests-Info.plist"; sourceTree = "<group>"; };
 		44E6B767F67ECC835C52B174BC4B752E /* Pods-MQUI_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MQUI_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4B6BEDCE403D270DDFE5F2F40B3D2D3D /* MQUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MQUI-dummy.m"; sourceTree = "<group>"; };
-		5411E2CA64886FADA0C3A39E2F21CD6E /* MQUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MQUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C0C8183A8D30AE7B3854C0DFEB3468F /* SCKPrefix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCKPrefix.h; path = MQUI/Classes/UI/SCKPrefix.h; sourceTree = "<group>"; };
+		4C500CA21818116D03A0954C1C79AB20 /* MQUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MQUI.debug.xcconfig; sourceTree = "<group>"; };
+		507A0D7F989822391C32CF179EBDE175 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		5411E2CA64886FADA0C3A39E2F21CD6E /* MQUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MQUI.framework; path = MQUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B5F6F9D3923E8B082E43B618DC030FB /* Pods-MQUI_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MQUI_Tests-umbrella.h"; sourceTree = "<group>"; };
-		7EAD3FFA932DC32ADE8B0D8D686B0106 /* MQUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MQUI.release.xcconfig; sourceTree = "<group>"; };
+		5DED1875928CFF810ECA2B4D2F0A907D /* UILabel+Title.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+Title.m"; path = "MQUI/Classes/UI/UILabel+Title.m"; sourceTree = "<group>"; };
+		5E4C5B3AAA85D836CF8ED609A862DC62 /* MQUI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MQUI-umbrella.h"; sourceTree = "<group>"; };
+		81A13D096ED6CBBA37853173E8DD9877 /* MQUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MQUI-dummy.m"; sourceTree = "<group>"; };
 		8FA4EF79D7D841176377450CDB292BFB /* Pods-MQUI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MQUI_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		94BC6299F70F62DFB0AD2F9FF8573CE2 /* MQUI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MQUI-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AD6E4D73C1058D94397B30C892E36508 /* UILabel+Title.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+Title.m"; path = "MQUI/Classes/UI/UILabel+Title.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A53F76B2245C086DC263FD31D21E1EEF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		BE12FB6388F8186BD6366EDB4F11D38B /* Pods-MQUI_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MQUI_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		BFA95DAE42244D7C3B6D5D535A01F85A /* Pods_MQUI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MQUI_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C14AEEF9B67C8B2F1BF04E7A3FBCBE9B /* UILabel+Title.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+Title.h"; path = "MQUI/Classes/UI/UILabel+Title.h"; sourceTree = "<group>"; };
-		E1E506F11A375E23C7A0D1C2178D3AAD /* MQUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MQUI.debug.xcconfig; sourceTree = "<group>"; };
+		BFA95DAE42244D7C3B6D5D535A01F85A /* Pods_MQUI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MQUI_Tests.framework; path = "Pods-MQUI_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6646DD6687A504F8A46DFA7317DDCD9 /* Pods-MQUI_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MQUI_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		E6EEDA678FF6CEAAC0EF778E12DBF3B6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		FABD90009258F285318D68129B51581B /* Pods-MQUI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MQUI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		FC25014657F539D019EEF5F18CE48573 /* MQUI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MQUI.podspec; sourceTree = "<group>"; tabWidth = 2; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B09D8D7079F1C2DC3DD059C5C8E85271 /* Frameworks */ = {
+		8AA445782566733ED3AB76E9CA5B37CD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				055D0C69C21E44B4A8AFB8A891EC078E /* Foundation.framework in Frameworks */,
+				50885484C09CDAF663E509EC0612CF8B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,14 +77,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		14008F9F318DBD4077BD359EC739AB5A /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				879ED68AE6E055B3DE2B30AFA3582FB2 /* MQUI */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		2722EC2D5F3CE2AEBB512D26991BDA59 /* Pods-MQUI_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -100,14 +94,17 @@
 			path = "Target Support Files/Pods-MQUI_Tests";
 			sourceTree = "<group>";
 		};
-		497B3E30BA2AA0A00A1ED62B9E3CEB79 /* Pod */ = {
+		2C0FE9CC895AB5B09CA707A9CEE5DBC9 /* MQUI */ = {
 			isa = PBXGroup;
 			children = (
-				3F0E336433C75694C66EC0B2BC41A938 /* LICENSE */,
-				FC25014657F539D019EEF5F18CE48573 /* MQUI.podspec */,
-				E6EEDA678FF6CEAAC0EF778E12DBF3B6 /* README.md */,
+				4C0C8183A8D30AE7B3854C0DFEB3468F /* SCKPrefix.h */,
+				008414AC12F3F334C6448F28E87EA4E7 /* UILabel+Title.h */,
+				5DED1875928CFF810ECA2B4D2F0A907D /* UILabel+Title.m */,
+				7F864CF14D7E933AFDE193C940F44ADC /* Pod */,
+				998183124ADFAC178989CBC7428E5A9B /* Support Files */,
 			);
-			name = Pod;
+			name = MQUI;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		49CE5F77597CFA388751EC89F94969D1 /* Products */ = {
@@ -119,16 +116,37 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		879ED68AE6E055B3DE2B30AFA3582FB2 /* MQUI */ = {
+		7F864CF14D7E933AFDE193C940F44ADC /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				C14AEEF9B67C8B2F1BF04E7A3FBCBE9B /* UILabel+Title.h */,
-				AD6E4D73C1058D94397B30C892E36508 /* UILabel+Title.m */,
-				497B3E30BA2AA0A00A1ED62B9E3CEB79 /* Pod */,
-				EA551466524609B3EB7FE4D3764C5537 /* Support Files */,
+				507A0D7F989822391C32CF179EBDE175 /* LICENSE */,
+				1B3AB7A4E46E517B6A2CB2B4AFEF7DBC /* MQUI.podspec */,
+				A53F76B2245C086DC263FD31D21E1EEF /* README.md */,
 			);
-			name = MQUI;
-			path = ../..;
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		998183124ADFAC178989CBC7428E5A9B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				371E068C495B2EEC28B452FB69FE6CDB /* MQUI.modulemap */,
+				81A13D096ED6CBBA37853173E8DD9877 /* MQUI-dummy.m */,
+				085557BBD8D50B7D97ED81EE918FF42A /* MQUI-Info.plist */,
+				31C472E42421062F816EA5AB3EF799FC /* MQUI-prefix.pch */,
+				5E4C5B3AAA85D836CF8ED609A862DC62 /* MQUI-umbrella.h */,
+				4C500CA21818116D03A0954C1C79AB20 /* MQUI.debug.xcconfig */,
+				12AF12ABF4EA21773C128CE0EBCFCC6C /* MQUI.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MQUI";
+			sourceTree = "<group>";
+		};
+		A852F94660354C3A31581333DED031B9 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C0FE9CC895AB5B09CA707A9CEE5DBC9 /* MQUI */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -143,7 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				14008F9F318DBD4077BD359EC739AB5A /* Development Pods */,
+				A852F94660354C3A31581333DED031B9 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				49CE5F77597CFA388751EC89F94969D1 /* Products */,
 				E377AD4D51FDA1B1EC908954A3570678 /* Targets Support Files */,
@@ -166,33 +184,9 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		EA551466524609B3EB7FE4D3764C5537 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				3D44ED31607DF5F71268C442E3DAB289 /* MQUI.modulemap */,
-				4B6BEDCE403D270DDFE5F2F40B3D2D3D /* MQUI-dummy.m */,
-				2B7E8731CECDCD3022706484AA7AC0DA /* MQUI-Info.plist */,
-				329153CF16CD8D384CFD9074D45E2337 /* MQUI-prefix.pch */,
-				94BC6299F70F62DFB0AD2F9FF8573CE2 /* MQUI-umbrella.h */,
-				E1E506F11A375E23C7A0D1C2178D3AAD /* MQUI.debug.xcconfig */,
-				7EAD3FFA932DC32ADE8B0D8D686B0106 /* MQUI.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/MQUI";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2DFC22D02A4096237EF5480CEC82C669 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4126EFF061131351570F346F864CFB45 /* MQUI-umbrella.h in Headers */,
-				E8FD25CB7F4B65B6BB6C3A8D6DEDEF6C /* UILabel+Title.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5F45F70C0B2C71219054B7D220DA7083 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -201,17 +195,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8837B34243F3F63C3476076A5268A783 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E96233C1C881FD37D18AEC338BEB5348 /* MQUI-umbrella.h in Headers */,
+				B505BCE33A545421C5F8301844E9A165 /* SCKPrefix.h in Headers */,
+				28DF1337A2A6DAB066EE54AA56910E90 /* UILabel+Title.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		37E09C7389831A4C7EF8163A1982CB3C /* MQUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5C17FBD1E6803C729225A8FF58C6E05C /* Build configuration list for PBXNativeTarget "MQUI" */;
+			buildConfigurationList = 1BD7B4461CBAE56CF547731350312D1B /* Build configuration list for PBXNativeTarget "MQUI" */;
 			buildPhases = (
-				2DFC22D02A4096237EF5480CEC82C669 /* Headers */,
-				7C6A1B84565055C5AC33ECCA0BE43837 /* Sources */,
-				B09D8D7079F1C2DC3DD059C5C8E85271 /* Frameworks */,
-				9EABAE1F96B1C8E2539DA2345DED3FD2 /* Resources */,
+				8837B34243F3F63C3476076A5268A783 /* Headers */,
+				248390B4A49515120BC1EBF30F6E70A4 /* Sources */,
+				8AA445782566733ED3AB76E9CA5B37CD /* Frameworks */,
+				7A8B507067A6FDB24371EB1051166BC1 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -234,7 +238,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				BC5ED35585F1A98B91C015B5190F15F7 /* PBXTargetDependency */,
+				1A292DC3673E72585D4B4475501AF129 /* PBXTargetDependency */,
 			);
 			name = "Pods-MQUI_Tests";
 			productName = "Pods-MQUI_Tests";
@@ -277,7 +281,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9EABAE1F96B1C8E2539DA2345DED3FD2 /* Resources */ = {
+		7A8B507067A6FDB24371EB1051166BC1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -287,6 +291,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		248390B4A49515120BC1EBF30F6E70A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E69A0D478A4024D2A3E8BA0433F9E54A /* MQUI-dummy.m in Sources */,
+				0E09703084902BF344B7B99894B38D7E /* UILabel+Title.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		76F591D68F145645B7B1347A85DBCF99 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -295,28 +308,52 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7C6A1B84565055C5AC33ECCA0BE43837 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CF7873D2954D8DCE5EFB79EDB8316FA9 /* MQUI-dummy.m in Sources */,
-				CB79FE5A5C5FA883347531EF691F41BA /* UILabel+Title.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		BC5ED35585F1A98B91C015B5190F15F7 /* PBXTargetDependency */ = {
+		1A292DC3673E72585D4B4475501AF129 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MQUI;
 			target = 37E09C7389831A4C7EF8163A1982CB3C /* MQUI */;
-			targetProxy = DD138C656802C962C5CAB1AD439783B3 /* PBXContainerItemProxy */;
+			targetProxy = 7D3A554EA2424AA04916C16DD3FCFA90 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2355D786458780B3B91D67BFA6120731 /* Release */ = {
+		017F62E42921435805DB10A8FA97965E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FABD90009258F285318D68129B51581B /* Pods-MQUI_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MQUI_Tests/Pods-MQUI_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MQUI_Tests/Pods-MQUI_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2A3DE163BBCA110AF949EAA30554ECB1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8FA4EF79D7D841176377450CDB292BFB /* Pods-MQUI_Tests.release.xcconfig */;
 			buildSettings = {
@@ -332,7 +369,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-MQUI_Tests/Pods-MQUI_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MQUI_Tests/Pods-MQUI_Tests.modulemap";
@@ -350,71 +387,7 @@
 			};
 			name = Release;
 		};
-		5F025D07B729D6BFC5AB38951E7270B1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E1E506F11A375E23C7A0D1C2178D3AAD /* MQUI.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MQUI/MQUI-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MQUI/MQUI-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MQUI/MQUI.modulemap";
-				PRODUCT_MODULE_NAME = MQUI;
-				PRODUCT_NAME = MQUI;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		95CAE9B4F66FE794B5C8475ED71EFAE7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FABD90009258F285318D68129B51581B /* Pods-MQUI_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MQUI_Tests/Pods-MQUI_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MQUI_Tests/Pods-MQUI_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -462,18 +435,19 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -524,7 +498,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -537,9 +511,40 @@
 			};
 			name = Debug;
 		};
-		D458EA7EC69359461926D8698E8B618B /* Release */ = {
+		9D7E8813D0953609783AB0400844A3F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7EAD3FFA932DC32ADE8B0D8D686B0106 /* MQUI.release.xcconfig */;
+			baseConfigurationReference = 4C500CA21818116D03A0954C1C79AB20 /* MQUI.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MQUI/MQUI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MQUI/MQUI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MQUI/MQUI.modulemap";
+				PRODUCT_MODULE_NAME = MQUI;
+				PRODUCT_NAME = MQUI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AB6F6B19BE3BE2BCA73A3C0DBBCD24FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12AF12ABF4EA21773C128CE0EBCFCC6C /* MQUI.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -572,20 +577,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+		1BD7B4461CBAE56CF547731350312D1B /* Build configuration list for PBXNativeTarget "MQUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
-				B0087CB4594321EF41619F3181FE120E /* Release */,
+				9D7E8813D0953609783AB0400844A3F9 /* Debug */,
+				AB6F6B19BE3BE2BCA73A3C0DBBCD24FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5C17FBD1E6803C729225A8FF58C6E05C /* Build configuration list for PBXNativeTarget "MQUI" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5F025D07B729D6BFC5AB38951E7270B1 /* Debug */,
-				D458EA7EC69359461926D8698E8B618B /* Release */,
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -593,8 +598,8 @@
 		973A592F52D791374C22CA78B498DC59 /* Build configuration list for PBXNativeTarget "Pods-MQUI_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				95CAE9B4F66FE794B5C8475ED71EFAE7 /* Debug */,
-				2355D786458780B3B91D67BFA6120731 /* Release */,
+				017F62E42921435805DB10A8FA97965E /* Debug */,
+				2A3DE163BBCA110AF949EAA30554ECB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

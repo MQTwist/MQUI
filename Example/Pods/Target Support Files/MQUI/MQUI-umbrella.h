@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "SCKPrefix.h"
 #import "UILabel+Title.h"
 
 FOUNDATION_EXPORT double MQUIVersionNumber;
